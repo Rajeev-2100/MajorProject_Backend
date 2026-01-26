@@ -25,6 +25,23 @@ async function seedData() {
 
 // seedData() 
 
+async function getAllProductData(){
+    try {
+        const product = await Products.find()
+        return product
+    } catch (error) {
+        throw error
+    }
+}
+
+app.get('/api/products', async (req,res) => {
+    try {
+        const product = await getAllProductData()
+        res.status(201).json({data: product})
+    } catch (error) {
+        res.status(500).json({error: 'Failed to fetch product Data'})
+    }
+})
 
 const PORT = 3001
 app.listen(PORT, () => {
