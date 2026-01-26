@@ -1,0 +1,222 @@
+[
+  {
+    "productName": "Classic Cotton T-Shirt",
+    "productPrice": 24.99,
+    "discountPrice": 19.99,
+    "deliveryCharges": 4.99,
+    "rating": 4.5,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": ["100% premium cotton", "Regular fit", "Machine washable", "Available in multiple colors"],
+    "productImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Slim Fit Jeans",
+    "productPrice": 59.99,
+    "discountPrice": 49.99,
+    "deliveryCharges": 0,
+    "rating": 4.7,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": ["Stretch denim fabric", "Slim fit design", "Five-pocket styling", "Mid-rise waist"],
+    "productImage": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Leather Jacket",
+    "productPrice": 199.99,
+    "discountPrice": 179.99,
+    "deliveryCharges": 9.99,
+    "rating": 4.8,
+    "productQuantity": 1,
+    "size": "XL",
+    "productDescription": ["Genuine leather", "Zipper closure", "Multiple pockets", "Classic biker style"],
+    "productImage": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Casual Hoodie",
+    "productPrice": 45.99,
+    "discountPrice": 39.99,
+    "deliveryCharges": 0,
+    "rating": 4.4,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": ["Fleece lining", "Kangaroo pocket", "Drawstring hood", "Soft cotton blend"],
+    "productImage": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Formal Dress Shirt",
+    "productPrice": 39.99,
+    "discountPrice": 34.99,
+    "deliveryCharges": 3.99,
+    "rating": 4.6,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": ["100% cotton", "Button-down collar", "Classic fit", "Wrinkle-resistant"],
+    "productImage": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Running Shoes",
+    "productPrice": 89.99,
+    "discountPrice": 79.99,
+    "deliveryCharges": 0,
+    "rating": 4.9,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": ["Lightweight design", "Breathable mesh", "Cushioned sole", "Non-slip grip"],
+    "productImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Winter Sweater",
+    "productPrice": 65.99,
+    "discountPrice": 55.99,
+    "deliveryCharges": 4.99,
+    "rating": 4.3,
+    "productQuantity": 1,
+    "size": "XL",
+    "productDescription": ["Wool blend", "Cable knit pattern", "Turtle neck", "Warm and cozy"],
+    "productImage": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Chino Pants",
+    "productPrice": 49.99,
+    "discountPrice": 42.99,
+    "deliveryCharges": 0,
+    "rating": 4.5,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": ["Cotton twill fabric", "Slim straight fit", "Button and zip fly", "Versatile style"],
+    "productImage": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Sports Shorts",
+    "productPrice": 29.99,
+    "discountPrice": 24.99,
+    "deliveryCharges": 2.99,
+    "rating": 4.2,
+    "productQuantity": 1,
+    "size": "S",
+    "productDescription": ["Moisture-wicking fabric", "Elastic waistband", "Side pockets", "Lightweight and breathable"],
+    "productImage": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Blazer Jacket",
+    "productPrice": 129.99,
+    "discountPrice": 109.99,
+    "deliveryCharges": 6.99,
+    "rating": 4.7,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": ["Polyester blend", "Notched lapel", "Two-button closure", "Professional look"],
+    "productImage": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Polo T-Shirt",
+    "productPrice": 34.99,
+    "discountPrice": 29.99,
+    "deliveryCharges": 0,
+    "rating": 4.4,
+    "productQuantity": 1,
+    "size": "XL",
+    "productDescription": ["Pique cotton", "Three-button placket", "Ribbed collar", "Comfortable fit"],
+    "productImage": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Denim Jacket",
+    "productPrice": 79.99,
+    "discountPrice": 69.99,
+    "deliveryCharges": 4.99,
+    "rating": 4.6,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": ["Medium wash denim", "Button front", "Chest pockets", "Casual style"],
+    "productImage": "https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Yoga Pants",
+    "productPrice": 44.99,
+    "discountPrice": 39.99,
+    "deliveryCharges": 0,
+    "rating": 4.8,
+    "productQuantity": 1,
+    "size": "S",
+    "productDescription": ["High-waist design", "Four-way stretch", "Moisture-wicking", "Comfortable for workouts"],
+    "productImage": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Bomber Jacket",
+    "productPrice": 89.99,
+    "discountPrice": 79.99,
+    "deliveryCharges": 5.99,
+    "rating": 4.5,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": ["Nylon fabric", "Ribbed cuffs and hem", "Zipper closure", "Lightweight yet warm"],
+    "productImage": "https://images.unsplash.com/photo-1557418669-db3f781a58c0?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Casual Sneakers",
+    "productPrice": 64.99,
+    "discountPrice": 54.99,
+    "deliveryCharges": 0,
+    "rating": 4.3,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": ["Canvas upper", "Rubber sole", "Lace-up closure", "Everyday comfort"],
+    "productImage": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Turtleneck Sweater",
+    "productPrice": 55.99,
+    "discountPrice": 49.99,
+    "deliveryCharges": 4.99,
+    "rating": 4.4,
+    "productQuantity": 1,
+    "size": "XL",
+    "productDescription": ["Merino wool blend", "Ribbed texture", "Warm turtleneck", "Perfect for winter"],
+    "productImage": "https://images.unsplash.com/photo-1574180045827-681f8a1a9622?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Cargo Pants",
+    "productPrice": 52.99,
+    "discountPrice": 46.99,
+    "deliveryCharges": 0,
+    "rating": 4.2,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": ["Cotton canvas", "Multiple cargo pockets", "Adjustable waist", "Durable and practical"],
+    "productImage": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Rain Jacket",
+    "productPrice": 74.99,
+    "discountPrice": 64.99,
+    "deliveryCharges": 5.99,
+    "rating": 4.6,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": ["Waterproof material", "Breathable lining", "Adjustable hood", "Lightweight protection"],
+    "productImage": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Graphic T-Shirt",
+    "productPrice": 27.99,
+    "discountPrice": 22.99,
+    "deliveryCharges": 3.99,
+    "rating": 4.1,
+    "productQuantity": 1,
+    "size": "S",
+    "productDescription": ["Soft cotton", "Screen printed design", "Oversized fit", "Unique artwork"],
+    "productImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&auto=format&fit=crop"
+  },
+  {
+    "productName": "Dress Shoes",
+    "productPrice": 99.99,
+    "discountPrice": 89.99,
+    "deliveryCharges": 7.99,
+    "rating": 4.7,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": ["Genuine leather", "Polished finish", "Cushioned insole", "Formal occasion wear"],
+    "productImage": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&auto=format&fit=crop"
+  }
+]

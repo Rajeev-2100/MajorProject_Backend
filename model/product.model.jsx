@@ -9,6 +9,10 @@ const productSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  productImage: {
+    type: String,
+    required: true,
+  },
   discountPrice: {
     type: Number,
     required: true,
@@ -27,7 +31,7 @@ const productSchema = new mongoose.Schema({
   },
   size: {
     type: String,
-    enum: ["S", "M", "XL", "XXL"],
+    enum: ["S", "M", 'L', "XL", "XXL"],
     required: true,
   },
   productDescription: {
