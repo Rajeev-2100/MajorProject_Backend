@@ -1,103 +1,379 @@
 [
   {
-    "productName": "Men Printed T-Shirt",
-    "productPrice": 1099,
-    "productImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
-    "discountPrice": 799,
-    "deliveryCharges": 49,
-    "rating": 4.2,
+    "productName": "Premium Cotton T-Shirt",
+    "productPrice": 25,
+    "productImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+    "discountPrice": 20,
+    "deliveryCharges": 5,
+    "rating": 4.4,
     "productQuantity": 1,
     "size": "M",
     "productDescription": [
-      "Premium cotton fabric",
-      "Regular fit",
-      "Soft and breathable",
-      "Easy wash"
+      "Made from 100% premium organic cotton for ultimate comfort",
+      "Double-stitched seams for enhanced durability",
+      "Pre-shrunk fabric to maintain shape after washing",
+      "Tagless label for itch-free wearing experience",
+      "Available in classic fit with modern styling"
     ],
     "categoryField": "69821412ab4bd72b68b22b32"
   },
   {
-    "productName": "Women Floral Dress",
-    "productPrice": 2499,
-    "productImage": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
-    "discountPrice": 1899,
-    "deliveryCharges": 79,
+    "productName": "Designer Formal Shirt",
+    "productPrice": 45,
+    "productImage": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=400&fit=crop",
+    "discountPrice": 38,
+    "deliveryCharges": 7,
     "rating": 4.6,
     "productQuantity": 1,
     "size": "L",
     "productDescription": [
-      "Lightweight fabric",
-      "Elegant floral print",
-      "Perfect for casual outings",
-      "Comfort fit"
-    ],
-    "categoryField": "6982168eab4bd72b68b22b34"
-  },
-  {
-    "productName": "Men Slim Fit Jeans",
-    "productPrice": 2799,
-    "productImage": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
-    "discountPrice": 2199,
-    "deliveryCharges": 99,
-    "rating": 4.4,
-    "productQuantity": 1,
-    "size": "XL",
-    "productDescription": [
-      "Stretchable denim",
-      "Slim fit style",
-      "Durable material",
-      "Modern look"
+      "Premium cotton poplin fabric with smooth finish",
+      "French cuffs with button detail",
+      "Slim fit design for contemporary look",
+      "Wrinkle-resistant technology for easy maintenance",
+      "Perfect for office wear and formal occasions"
     ],
     "categoryField": "69821412ab4bd72b68b22b32"
   },
   {
-    "productName": "Women Casual Top",
-    "productPrice": 1299,
-    "productImage": "https://images.unsplash.com/photo-1520975916090-3105956dac38",
-    "discountPrice": 999,
-    "deliveryCharges": 49,
-    "rating": 4.1,
+    "productName": "Casual Denim Jacket",
+    "productPrice": 85,
+    "productImage": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop",
+    "discountPrice": 75,
+    "deliveryCharges": 10,
+    "rating": 4.8,
+    "productQuantity": 1,
+    "size": "XL",
+    "productDescription": [
+      "Made from authentic heavy-weight denim",
+      "Distressed finish for vintage look",
+      "Metal button and zipper closure",
+      "Multiple pockets for functionality",
+      "Comfortable fit with room for layering"
+    ],
+    "categoryField": "69821412ab4bd72b68b22b32"
+  },
+  {
+    "productName": "Summer Linen Pants",
+    "productPrice": 55,
+    "productImage": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop",
+    "discountPrice": 48,
+    "deliveryCharges": 6,
+    "rating": 4.4,
     "productQuantity": 1,
     "size": "M",
     "productDescription": [
-      "Soft fabric",
-      "Trendy design",
-      "Daily wear",
-      "Comfortable fit"
-    ],
-    "categoryField": "6982168eab4bd72b68b22b34"
-  },
-  {
-    "productName": "Men Hooded Sweatshirt",
-    "productPrice": 2199,
-    "productImage": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
-    "discountPrice": 1699,
-    "deliveryCharges": 99,
-    "rating": 4.5,
-    "productQuantity": 1,
-    "size": "L",
-    "productDescription": [
-      "Warm fleece material",
-      "Hooded neck",
-      "Winter essential",
-      "Stylish look"
+      "100% pure linen fabric for breathability",
+      "Elastic waist with drawstring for comfort",
+      "Lightweight and perfect for summer",
+      "Tapered leg design for modern look",
+      "Easy care with machine wash capability"
     ],
     "categoryField": "69821412ab4bd72b68b22b32"
   },
   {
-    "productName": "Women Denim Jacket",
-    "productPrice": 3199,
-    "productImage": "https://images.unsplash.com/photo-1520975682031-a0c1f68fae21",
-    "discountPrice": 2599,
-    "deliveryCharges": 119,
-    "rating": 4.7,
+    "productName": "Winter Wool Sweater",
+    "productPrice": 75,
+    "productImage": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=400&fit=crop",
+    "discountPrice": 65,
+    "deliveryCharges": 8,
+    "rating": 4.6,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": [
+      "Made from premium merino wool blend",
+      "Ribbed cuffs and hem for better fit",
+      "Crew neck design for versatility",
+      "Warm yet breathable fabric",
+      "Perfect for cold weather layering"
+    ],
+    "categoryField": "69821412ab4bd72b68b22b32"
+  },
+  {
+    "productName": "Elegance Silk Blouse",
+    "productPrice": 65,
+    "productImage": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&h=400&fit=crop",
+    "discountPrice": 55,
+    "deliveryCharges": 6,
+    "rating": 4.8,
+    "productQuantity": 1,
+    "size": "S",
+    "productDescription": [
+      "100% pure silk fabric with luxurious feel",
+      "Button-down front with delicate pearl buttons",
+      "Flow sleeves for elegant drape",
+      "Breathable and temperature regulating",
+      "Dry clean only for best maintenance"
+    ],
+    "categoryField": "6982168eab4bd72b68b22b34"
+  },
+  {
+    "productName": "Classic A-Line Dress",
+    "productPrice": 95,
+    "productImage": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&h=400&fit=crop",
+    "discountPrice": 85,
+    "deliveryCharges": 10,
+    "rating": 4.6,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": [
+      "Flowy polyester blend fabric",
+      "A-line silhouette that flatters all body types",
+      "Hidden side zipper for seamless look",
+      "Knee-length design for versatility",
+      "Perfect for parties and special occasions"
+    ],
+    "categoryField": "6982168eab4bd72b68b22b34"
+  },
+  {
+    "productName": "Designer Leather Handbag",
+    "productPrice": 120,
+    "productImage": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&h=400&fit=crop",
+    "discountPrice": 105,
+    "deliveryCharges": 15,
+    "rating": 4.8,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": [
+      "Genuine leather construction with soft texture",
+      "Multiple compartments for organization",
+      "Adjustable shoulder strap included",
+      "Gold-toned hardware for elegance",
+      "Protective feet at the base to prevent scratches"
+    ],
+    "categoryField": "6982168eab4bd72b68b22b34"
+  },
+  {
+    "productName": "Casual Jogger Pants",
+    "productPrice": 40,
+    "productImage": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop",
+    "discountPrice": 35,
+    "deliveryCharges": 5,
+    "rating": 4.4,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": [
+      "French terry cotton blend for comfort",
+      "Elastic waistband with drawstring",
+      "Tapered leg with ribbed ankle cuffs",
+      "Side pockets and back pocket",
+      "Perfect for casual wear and workouts"
+    ],
+    "categoryField": "69821412ab4bd72b68b22b32"
+  },
+  {
+    "productName": "Business Suit Blazer",
+    "productPrice": 150,
+    "productImage": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=400&fit=crop",
+    "discountPrice": 135,
+    "deliveryCharges": 12,
+    "rating": 4.8,
     "productQuantity": 1,
     "size": "XL",
     "productDescription": [
-      "Classic denim style",
-      "All-season wear",
-      "Durable fabric",
-      "Trendy design"
+      "Premium wool blend fabric with structure",
+      "Notched lapel design with single-breasted closure",
+      "Two button front with functioning sleeve buttons",
+      "Internal pocket for mobile devices",
+      "Lined interior for comfortable wear"
+    ],
+    "categoryField": "69821412ab4bd72b68b22b32"
+  },
+  {
+    "productName": "Evening Cocktail Dress",
+    "productPrice": 110,
+    "productImage": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&h=400&fit=crop",
+    "discountPrice": 98,
+    "deliveryCharges": 10,
+    "rating": 4.6,
+    "productQuantity": 1,
+    "size": "S",
+    "productDescription": [
+      "Sequined chiffon fabric for glamorous look",
+      "Bodycon silhouette with flattering cut",
+      "Spaghetti straps with adjustable length",
+      "Knee-length design with slight flare",
+      "Perfect for evening parties and weddings"
+    ],
+    "categoryField": "6982168eab4bd72b68b22b34"
+  },
+  {
+    "productName": "Athletic Shorts",
+    "productPrice": 30,
+    "productImage": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400&h=400&fit=crop",
+    "discountPrice": 25,
+    "deliveryCharges": 4,
+    "rating": 4.2,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": [
+      "Quick-dry polyester material",
+      "Elastic waistband with inner drawstring",
+      "Side pockets with secure closure",
+      "Breathable mesh lining",
+      "Reflective details for low-light visibility"
+    ],
+    "categoryField": "69821412ab4bd72b68b22b32"
+  },
+  {
+    "productName": "Maxi Summer Dress",
+    "productPrice": 85,
+    "productImage": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&h=400&fit=crop",
+    "discountPrice": 75,
+    "deliveryCharges": 8,
+    "rating": 4.6,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": [
+      "Lightweight cotton voile fabric",
+      "Floor-length design with side slit",
+      "Smocked bodice for adjustable fit",
+      "Spaghetti straps with tie detail",
+      "Flowy skirt with beautiful drape"
+    ],
+    "categoryField": "6982168eab4bd72b68b22b34"
+  },
+  {
+    "productName": "Polo Collar Shirt",
+    "productPrice": 35,
+    "productImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+    "discountPrice": 30,
+    "deliveryCharges": 5,
+    "rating": 4.4,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": [
+      "Piqué cotton fabric with stretch",
+      "Three-button placket with collar",
+      "Ribbed cuffs for secure fit",
+      "Side vents for better movement",
+      "Perfect for smart casual occasions"
+    ],
+    "categoryField": "69821412ab4bd72b68b22b32"
+  },
+  {
+    "productName": "Office Pencil Skirt",
+    "productPrice": 50,
+    "productImage": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=400&h=400&fit=crop",
+    "discountPrice": 45,
+    "deliveryCharges": 6,
+    "rating": 4.4,
+    "productQuantity": 1,
+    "size": "S",
+    "productDescription": [
+      "Stretch twill fabric for comfort and shape",
+      "Knee-length design with back slit",
+      "Concealed back zipper with hook closure",
+      "Lined interior for smooth wear",
+      "Perfect for professional office wear"
+    ],
+    "categoryField": "6982168eab4bd72b68b22b34"
+  },
+  {
+    "productName": "Hooded Sweatshirt",
+    "productPrice": 55,
+    "productImage": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=400&fit=crop",
+    "discountPrice": 48,
+    "deliveryCharges": 7,
+    "rating": 4.6,
+    "productQuantity": 1,
+    "size": "XL",
+    "productDescription": [
+      "Fleece-lined cotton blend for warmth",
+      "Kangaroo pocket at front",
+      "Adjustable drawstring hood",
+      "Ribbed cuffs and hem",
+      "Perfect for casual everyday wear"
+    ],
+    "categoryField": "69821412ab4bd72b68b22b32"
+  },
+  {
+    "productName": "Evening Wrap Top",
+    "productPrice": 60,
+    "productImage": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&h=400&fit=crop",
+    "discountPrice": 52,
+    "deliveryCharges": 6,
+    "rating": 4.8,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": [
+      "Satin fabric with luxurious sheen",
+      "Wrap-style front with tie closure",
+      "Wide leg sleeves with elastic cuffs",
+      "Flattering V-neck design",
+      "Perfect for dinner dates and parties"
+    ],
+    "categoryField": "6982168eab4bd72b68b22b34"
+  },
+  {
+    "productName": "Chino Trousers",
+    "productPrice": 65,
+    "productImage": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop",
+    "discountPrice": 58,
+    "deliveryCharges": 7,
+    "rating": 4.6,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": [
+      "Cotton twill fabric with slight stretch",
+      "Flat front design with clean lines",
+      "Multiple pockets including coin pocket",
+      "Button and zipper closure",
+      "Suitable for both casual and semi-formal wear"
+    ],
+    "categoryField": "69821412ab4bd72b68b22b32"
+  },
+  {
+    "productName": "Floral Print Sundress",
+    "productPrice": 70,
+    "productImage": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&h=400&fit=crop",
+    "discountPrice": 62,
+    "deliveryCharges": 8,
+    "rating": 4.4,
+    "productQuantity": 1,
+    "size": "S",
+    "productDescription": [
+      "Lightweight rayon fabric with floral print",
+      "Smocked bodice for flexible fit",
+      "Adjustable tie straps",
+      "Knee-length with A-line silhouette",
+      "Perfect for summer outings and beach wear"
+    ],
+    "categoryField": "6982168eab4bd72b68b22b34"
+  },
+  {
+    "productName": "Bomber Jacket",
+    "productPrice": 90,
+    "productImage": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop",
+    "discountPrice": 80,
+    "deliveryCharges": 10,
+    "rating": 4.8,
+    "productQuantity": 1,
+    "size": "M",
+    "productDescription": [
+      "Nylon shell with polyester lining",
+      "Ribbed cuffs, collar and hem",
+      "Front zipper closure with snap placket",
+      "Zippered side pockets",
+      "Lightweight yet warm for transitional weather"
+    ],
+    "categoryField": "69821412ab4bd72b68b22b32"
+  },
+  {
+    "productName": "Evening Gown",
+    "productPrice": 180,
+    "productImage": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&h=400&fit=crop",
+    "discountPrice": 165,
+    "deliveryCharges": 15,
+    "rating": 4.8,
+    "productQuantity": 1,
+    "size": "L",
+    "productDescription": [
+      "Luxurious velvet fabric with satin lining",
+      "Floor-length design with train",
+      "Off-shoulder neckline with fitted bodice",
+      "Full skirt with layers of tulle",
+      "Perfect for black-tie events and galas"
     ],
     "categoryField": "6982168eab4bd72b68b22b34"
   }

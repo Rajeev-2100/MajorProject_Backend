@@ -7,6 +7,8 @@ const productSchema = new mongoose.Schema({
   },
   productPrice: {
     type: Number,
+    min: 10,
+    max: 200,
     required: true,
   },
   productImage: {
@@ -23,6 +25,7 @@ const productSchema = new mongoose.Schema({
   },
   rating: {
     type: Number,
+    enum: [4.2,4.4,4.6,4.8],
     required: true,
   },
   productQuantity: {
