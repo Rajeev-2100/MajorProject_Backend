@@ -19,7 +19,7 @@ const productSchema = new mongoose.Schema({
   },
   deliveryCharges: {
     type: Number,
-    requried: true,
+    required: true,
   },
   rating: {
     type: Number,
@@ -38,6 +38,11 @@ const productSchema = new mongoose.Schema({
     type: [String],
     required: true,
   },
+  categoryField: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Category",
+    required: true,
+  }
 });
 
 const Product = mongoose.model("Product", productSchema);
