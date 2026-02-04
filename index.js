@@ -63,6 +63,20 @@ async function getProductDetailByProductId(productId) {
   }
 }
 
+app.get("/api/products/category/:CategoryId", async (req, res) => {
+  try {
+    const product = await getAllProductDataByCategory(req.params.CategoryId);
+    console.log(product);
+    if (product) {
+      return res.status(200).json({ data: product });
+    }
+    res.status(404).json({ error: "This product Id not found" });
+    console.error(error.message);
+  } catch (error) {
+    res.status(500).json({ error: "Failed to fetch product Data" });
+  }
+});
+
 app.get("/api/products/:productId", async (req, res) => {
   try {
     const product = await getProductDetailByProductId(req.params.productId);
@@ -74,6 +88,17 @@ app.get("/api/products/:productId", async (req, res) => {
     res.status(500).json({ error: "Failed to fetch product Data" });
   }
 });
+
+async function getAllProductDataByCategory(categoryId) {
+  try {
+    console.log(categoryId)
+    const products = await Products.find({ categoryField: categoryId });
+    console.log(products)
+    return products;
+  } catch (error) {
+    throw error;
+  }
+}
 
 async function createCategoryData(newCategory) {
   try {
@@ -125,7 +150,7 @@ app.get("/api/categories", async (req, res) => {
 
 async function getCategoryByCategoryId(categoryId) {
   try {
-    const category = await Category.findById(categoryId)
+    const category = await Category.findById(categoryId);
     return category;
   } catch (error) {
     throw error;
