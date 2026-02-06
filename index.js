@@ -3,6 +3,8 @@ const { initializeDatabase } = require("./db/db.connect.js");
 const express = require("express");
 const fs = require("fs");
 const Category = require("./model/category.model.jsx");
+const Users = require("./model/user.model.jsx");
+const Address = require("./model/address.model.jsx");
 
 const app = express();
 initializeDatabase();
@@ -56,7 +58,7 @@ app.get("/api/products", async (req, res) => {
 async function getProductDetailByProductId(productId) {
   try {
     const product = await Products.findById(productId);
-    console.log(product);
+    // console.log(product);
     return product;
   } catch (error) {
     throw error;
@@ -66,7 +68,7 @@ async function getProductDetailByProductId(productId) {
 app.get("/api/products/category/:CategoryId", async (req, res) => {
   try {
     const product = await getAllProductDataByCategory(req.params.CategoryId);
-    console.log(product);
+    // console.log(product);
     if (product) {
       return res.status(200).json({ data: product });
     }
@@ -91,9 +93,9 @@ app.get("/api/products/:productId", async (req, res) => {
 
 async function getAllProductDataByCategory(categoryId) {
   try {
-    console.log(categoryId)
+    // console.log(categoryId)
     const products = await Products.find({ categoryField: categoryId });
-    console.log(products)
+    // console.log(products)
     return products;
   } catch (error) {
     throw error;
@@ -170,6 +172,153 @@ app.get("/api/categories/:categoryId", async (req, res) => {
       .json({ error: "Failed to fetch Category Data", details: error.message });
   }
 });
+
+// * ----------------------- User Profile --------------------------
+
+// ! api for added user Profile
+
+async function createNewUserDetails(newUser) {
+  try {
+    const user = new Users(newUser);
+    const savedUser = user.save();
+    return savedUser;
+  } catch (error) {
+    throw error;
+  }
+}
+
+app.post("/api/user", async (req, res) => {
+  try {
+    const user = await createNewUserDetails(req.body);
+    if (user) {
+      res.status(200).json({ data: user });
+    }
+    res.status(404).json({ error: "Something wrong in user Details " });
+  } catch (error) {
+    res.status(500).json({ error: "Failed to fetch user Detail" });
+  }
+});
+
+// ! api for get the user Data
+
+async function getUserDetail() {
+  try {
+    const user = await Address.find();
+    return user;
+  } catch (error) {
+    throw error;
+  }
+}
+
+app.get("/api/user", async (req, res) => {
+  try {
+    const user = await getUserDetail();
+    if (user) {
+      res.status(201).json({ message: "User Detail this:", data: user });
+    }
+    res.status(404).json({ error: "This User Id not found in Db" });
+  } catch (error) {
+    throw error;
+  }
+});
+
+// * ----------------------- User Address --------------------------
+
+// ! create change for user Address
+
+async function createUserAddress(newAddress) {
+  try {
+    const address = new Address(newAddress);
+    const savedAddress = await address.save();
+    return savedAddress;
+  } catch (error) {
+    throw error;
+  }
+}
+
+app.post("/api/address", async (req, res) => {
+  try {
+    const address = await createUserAddress(req.body);
+    if (address) {
+      res.status(200).json({ data: address });
+    }
+    res.status(404).json({ error: "Something wrong in address Details " });
+  } catch (error) {
+    res.status(500).json({ error: "Failed to fetch address Detail" });
+    console.error(error.message);
+  }
+});
+
+// ! get All User Address
+
+async function getAllDetailOfUserAddress() {
+  try {
+    const user = await Address.find();
+    return user;
+  } catch (error) {
+    throw error;
+  }
+}
+
+app.get("/api/address", async (req, res) => {
+  try {
+    const address = await getAllDetailOfUserAddress()
+    if (!address) {
+      return res.status(404).json({ error: "Not found" });
+    }
+    res.status(200).json({ data: address });
+  } catch (error) {
+    res.status(500).json({ error: "Failed to fetch address Detail" });
+  }
+});
+
+// ! update the User Address Detail
+
+async function updatedToUserAddressDetail(addressId, dataToUpdate){
+  try {
+    const address = await Address.findByIdAndUpdate(addressId, dataToUpdate, {new: true})
+    return address
+  } catch (error) {
+    throw error
+  }
+}
+
+app.post('/api/address/:addressId', async (req,res) => {
+  try {
+    const address = await updatedToUserAddressDetail(req.params.addressId, req.body)
+    if(address){
+      res.status(201).json({data: address})
+    }
+    res.status(404).json({error: 'That Address Id not found'})
+    console.error(error.message)
+  } catch (error) {
+    res.status(500).json({error: 'Failed to Fetch address data'})    
+  }
+})
+
+// ! delete route using address id
+
+async function deletedUserDetailAddress(addressId){
+  try {
+    const address = await Address.findByIdAndDelete(addressId)
+    return address
+  } catch (error) {
+    throw error
+  }
+}
+
+app.delete('/api/address/:addressId', async (req,res) => {
+  try {
+    const address = await deletedUserDetailAddress(req.params.addressId)
+    console.log(req.params.addressId)
+    if(address){
+      res.status(201).json({data: 'User Address Deleted successfully'})
+    }
+    res.status(404).json({error: 'User Address id not found'})
+  } catch (error) {
+    res.status(500).json({error: 'Failed to fetch User Address Details'})
+  }
+})
 
 const PORT = 3001;
 app.listen(PORT, () => {
