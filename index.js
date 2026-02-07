@@ -203,7 +203,7 @@ app.post("/api/user", async (req, res) => {
 
 async function getUserDetail() {
   try {
-    const user = await Address.find();
+    const user = await Users.find();
     return user;
   } catch (error) {
     throw error;
